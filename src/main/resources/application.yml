@@ -1,0 +1,6 @@
+test:
+  jd-url: https://www.jd.com/
+  jd-login-url: https://passport.jd.com/new/login.aspx
+  jd-order-url: https://order.jd.com/center/list.action
+  username: ojj
+  password: pwd

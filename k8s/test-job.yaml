@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: jd-automation-test
+spec:
+  template:
+    spec:
+      containers:
+      - name: jd-test
+        image: your-registry/jd-automation:latest
+        env:
+        - name: TEST_USERNAME
+          value: "你的账号"
+        - name: TEST_PASSWORD
+          value: "你的密码"
+      restartPolicy: Never
+  backoffLimit: 0

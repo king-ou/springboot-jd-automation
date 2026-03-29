@@ -1,0 +1,8 @@
+com\jd\auto\pages\JdLoginPage.class
+com\jd\auto\util\ReportManager.class
+com\jd\auto\pages\JdOrderPage.class
+com\jd\auto\core\DriverManager.class
+com\jd\auto\config\TestConfig.class
+com\jd\auto\pages\JdHomePage.class
+com\jd\auto\JdAutomationApplication.class
+com\jd\auto\core\BasePage.class

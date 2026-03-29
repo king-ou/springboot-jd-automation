@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JD-Auto-Test-Suite">
+    <test name="JD-Core-Test">
+        <classes>
+            <class name="com.jd.auto.test.JdCoreTest"/>
+        </classes>
+    </test>
+</suite>
